@@ -15,16 +15,16 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" style="background: #2E2435"></canvas>
-    <script src="Build/NewBuild.loader.js"></script>
+    <script src="Build/Build.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/NewBuild.data",
-        frameworkUrl: "Build/NewBuild.framework.js",
-        codeUrl: "Build/NewBuild.wasm",
+        dataUrl: "Build/Build.data",
+        frameworkUrl: "Build/Build.framework.js",
+        codeUrl: "Build/Build.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Nicks",
         productName: "Route",
-        productVersion: "1.0",
+        productVersion: "1.1",
         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
